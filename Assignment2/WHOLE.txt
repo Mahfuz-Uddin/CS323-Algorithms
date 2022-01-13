@@ -1,0 +1,134 @@
+"C:\Program Files\Python39\python.exe" C:/Users/mahfu/OneDrive/Desktop/323Projects/Assignment2/main.py
+[inf, 4, inf, inf, inf, inf, inf, 8, inf]
+[4, inf, 8, inf, inf, inf, inf, 11, inf]
+[inf, 8, inf, 7, inf, 4, inf, inf, 2]
+[inf, inf, 7, inf, 9, 14, inf, inf, inf]
+[inf, inf, inf, 9, inf, 10, inf, inf, inf]
+[inf, inf, 4, 14, 10, inf, 2, inf, inf]
+[inf, inf, inf, inf, inf, 2, inf, 1, 6]
+[8, 11, inf, inf, inf, inf, 1, inf, 7]
+[inf, inf, 2, inf, inf, inf, 6, 7, inf]
+
+
+Vertex 1 	MST [0, 4, inf, inf, inf, inf, inf, inf, inf] 		 a Newly added Edge: 4
+Vertex 7 	MST [0, 4, inf, inf, inf, inf, inf, 8, inf] 		 a Newly added Edge: 8
+Vertex 2 	MST [0, 4, 8, inf, inf, inf, inf, 8, inf] 		 a Newly added Edge: 8
+Vertex 3 	MST [0, 4, 8, 7, inf, inf, inf, 8, inf] 		 a Newly added Edge: 7
+Vertex 5 	MST [0, 4, 8, 7, inf, 4, inf, 8, inf] 		 a Newly added Edge: 4
+Vertex 8 	MST [0, 4, 8, 7, inf, 4, inf, 8, 2] 		 a Newly added Edge: 2
+Vertex 6 	MST [0, 4, 8, 7, inf, 4, 6, 8, 2] 		 a Newly added Edge: 6
+Vertex 7 	MST [0, 4, 8, 7, inf, 4, 6, 7, 2] 		 a Newly added Edge: 7
+Vertex 4 	MST [0, 4, 8, 7, 10, 4, 6, 7, 2] 		 a Newly added Edge: 10
+Vertex 6 	MST [0, 4, 8, 7, 10, 4, 2, 7, 2] 		 a Newly added Edge: 2
+Vertex 7 	MST [0, 4, 8, 7, 10, 4, 2, 1, 2] 		 a Newly added Edge: 1
+Vertex 4 	MST [0, 4, 8, 7, 9, 4, 2, 1, 2] 		 a Newly added Edge: 9
+
+Prism MST
+
+Edge 	Weight
+Edge 0 to 1 with cost:4
+Edge 1 to 2 with cost:8
+Edge 2 to 3 with cost:7
+Edge 3 to 4 with cost:9
+Edge 2 to 5 with cost:4
+Edge 5 to 6 with cost:2
+Edge 6 to 7 with cost:1
+Edge 2 to 8 with cost:2
+The total weight of the MST is 37
+Vertex 1 	MST [0, 4, inf, inf, inf, inf, inf, inf, inf] 		 a Newly added Edge: 4
+Vertex 7 	MST [0, 4, inf, inf, inf, inf, inf, 8, inf] 		 a Newly added Edge: 8
+Vertex 2 	MST [0, 4, 8, inf, inf, inf, inf, 8, inf] 		 a Newly added Edge: 8
+Vertex 3 	MST [0, 4, 8, 7, inf, inf, inf, 8, inf] 		 a Newly added Edge: 7
+Vertex 5 	MST [0, 4, 8, 7, inf, 4, inf, 8, inf] 		 a Newly added Edge: 4
+Vertex 8 	MST [0, 4, 8, 7, inf, 4, inf, 8, 2] 		 a Newly added Edge: 2
+Vertex 6 	MST [0, 4, 8, 7, inf, 4, 6, 8, 2] 		 a Newly added Edge: 6
+Vertex 7 	MST [0, 4, 8, 7, inf, 4, 6, 7, 2] 		 a Newly added Edge: 7
+Vertex 4 	MST [0, 4, 8, 7, 10, 4, 6, 7, 2] 		 a Newly added Edge: 10
+Vertex 6 	MST [0, 4, 8, 7, 10, 4, 2, 7, 2] 		 a Newly added Edge: 2
+Vertex 7 	MST [0, 4, 8, 7, 10, 4, 2, 1, 2] 		 a Newly added Edge: 1
+Vertex 4 	MST [0, 4, 8, 7, 9, 4, 2, 1, 2] 		 a Newly added Edge: 9
+
+Prism MST
+
+Edge 	Weight
+Edge 0 to 1 with cost:4
+Edge 1 to 2 with cost:8
+Edge 2 to 3 with cost:7
+Edge 3 to 4 with cost:9
+Edge 2 to 5 with cost:4
+Edge 5 to 6 with cost:2
+Edge 6 to 7 with cost:1
+Edge 2 to 8 with cost:2
+The total weight of the MST is 37
+
+
+
+
+Kruskal MST
+
+[inf, inf, inf, inf, inf, inf, inf, inf, inf]
+[]
+Newly added 6
+Edge 6 to 7 with cost:1
+[6]
+Newly added 2
+Edge 2 to 8 with cost:2
+[6, 2]
+Newly added 5
+Edge 5 to 6 with cost:2
+[6, 2, 5]
+Newly added 0
+Edge 0 to 1 with cost:4
+[6, 2, 5, 0]
+Newly added 2
+Edge 2 to 5 with cost:4
+[6, 2, 5, 0, 2]
+Newly added 2
+Edge 2 to 3 with cost:7
+[6, 2, 5, 0, 2, 2]
+Newly added 0
+Edge 0 to 7 with cost:8
+[6, 2, 5, 0, 2, 2, 0]
+Newly added 3
+Edge 3 to 4 with cost:9
+The Minimum Cost of the MST is 37
+
+
+Kruskal MST
+
+[inf, inf, inf, inf, inf, inf, inf, inf, inf]
+[]
+Newly added 6
+Edge 6 to 7 with cost:1
+[6]
+Newly added 2
+Edge 2 to 8 with cost:2
+[6, 2]
+Newly added 5
+Edge 5 to 6 with cost:2
+[6, 2, 5]
+Newly added 0
+Edge 0 to 1 with cost:4
+[6, 2, 5, 0]
+Newly added 2
+Edge 2 to 5 with cost:4
+[6, 2, 5, 0, 2]
+Newly added 2
+Edge 2 to 3 with cost:7
+[6, 2, 5, 0, 2, 2]
+Newly added 0
+Edge 0 to 7 with cost:8
+[6, 2, 5, 0, 2, 2, 0]
+Newly added 3
+Edge 3 to 4 with cost:9
+The Minimum Cost of the MST is 37
+
+This data is for 5 trails of Prism and Krusal MST
++-----------------------+---------------------------+----------------------+-----------------------------+
+|   Time_For_Prism_MST  | Comparisons_For_Prism_MST | Time_For_Kruskal_MST | Comparisons_For_Kruskal_MST |
++-----------------------+---------------------------+----------------------+-----------------------------+
+| 0.0015105000000000257 |            405            | 0.001107500000000039 |             1305            |
+| 0.0009570999999999885 |            405            | 0.002337699999999998 |             1305            |
++-----------------------+---------------------------+----------------------+-----------------------------+
+
+Process finished with exit code 0

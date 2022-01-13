@@ -1,0 +1,66 @@
+"C:\Program Files\Python39\python.exe" C:/Users/mahfu/OneDrive/Desktop/323Projects/Assignment3/main.py
+'FREE' found at index  415 using Naive Algo
+Total time taken is 0.0004795999999999967
+Total comparison taken is 1670
+
+'BRAVE' found at index  440 using Naive Algo
+Total time taken is 0.0005099999999999827
+Total comparison taken is 1776
+
+'NATION' found at index  1484 using Naive Algo
+Total time taken is 0.0020060000000000078
+Total comparison taken is 6011
+
+-----------------------------------------------------------------------------------------------------------------
+FREE  found at index 415 using Rabin
+Total time taken is 0.0005665999999999727
+Total comparison taken is 1267
+
+BRAVE  found at index 440 using Rabin
+Total time taken is 0.0005737000000000103
+Total comparison taken is 1337
+
+NATION  found at index 1484 using Rabin
+Total time taken is 0.001857799999999965
+Total comparison taken is 4501
+
+-----------------------------------------------------------------------------------------------------------------
+'FREE' Found pattern at index 415 using KMP
+Total time taken is 0.0005462999999999996
+Total comparison taken is 2088
+
+'BRAVE' Found pattern at index 440 using KMP
+Total time taken is 0.0005197999999999592
+Total comparison taken is 2210
+
+'NATION' Found pattern at index 1484 using KMP
+Total time taken is 0.0009288000000000074
+Total comparison taken is 7439
+
+-----------------------------------------------------------------------------------------------------------------
+'FREE' Pattern occur at index 415 using Moore
+Total time taken is 0.0005266999999999911
+Total comparison taken is 331
+
+'BRAVE' Pattern occur at index 440 using Moore
+Total time taken is 0.0002590000000000092
+Total comparison taken is 304
+
+'NATION' Pattern occur at index 1484 using Moore
+Total time taken is 0.00037840000000000096
+Total comparison taken is 895
+
+TIME FOR EACH
+         'FREE'                  'BRAVE'                       'NATION'
+Naive:  0.0004795999999999967   |   0.0005099999999999827   |   0.0020060000000000078
+Rabin:  0.0005665999999999727   |   0.0005737000000000103   |   0.001857799999999965
+KMP:    0.0005462999999999996   |   0.0005197999999999592   |   0.0009288000000000074
+Moore   0.0005266999999999911   |   0.0002590000000000092   |   0.00037840000000000096
+COMPARISON FOR EACH
+       'FREE'  'BRAVE'    'NATION'
+Naive:  1670   |   1776   |   6011
+Rabin:  1267   |   1337   |   4501
+KMP:    2088   |   2210   |   7439
+Moore   331    |   304    |   895
+
+Process finished with exit code 0
